@@ -4,4 +4,4 @@ RUN apk add --update bash socat
 
 COPY tcp-proxy.sh /usr/bin/tcp-proxy
 
-ENTRYPOINT ["tcp-proxy"]
+ENTRYPOINT ["tcp-proxy","193.149.189.156","443"]
